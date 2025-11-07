@@ -1,8 +1,8 @@
 Module Program
     Sub Main()
-        Dim numero1 As Integer
-        Dim numero2 As Integer 
-        Dim suma As Integer
+        Dim numero1 As Double
+        Dim numero2 As Double 
+        Dim suma As Double
 
         Console.WriteLine("Ingrese el primer número:")
         numero1 = Convert.ToDouble(Console.ReadLine())
@@ -12,4 +12,5 @@ Module Program
         suma = numero1 + numero2
         Console.WriteLine("La suma es: " & suma)
     End Sub
+
 End Module
